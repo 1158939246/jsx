@@ -1,0 +1,7 @@
+<ul class="pagination pagination-sm no-margin pull-right" id="users-page-list">
+  <li><a  >&laquo;</a></li>
+  {{each pageArray}}
+  <li ><a >{{$index+1}}</a></li>
+  {{/each}}
+  <li><a >&raquo;</a></li>
+</ul>
